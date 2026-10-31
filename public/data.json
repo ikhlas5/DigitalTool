@@ -1,0 +1,144 @@
+[
+  {
+    "id": 1,
+    "name": "Starter",
+    "description": "Everything you need to get started with your productivity journey.",
+    "price": 9,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "50+ templates",
+      "Basic customization",
+      "Export to PDF",
+      "Email support",
+      "1 user account"
+    ],
+    "icon": "https://i.ibb.co/HfsnGqBG/design-tool.png"
+  },
+  {
+    "id": 2,
+    "name": "Professional",
+    "description": "Advanced tools and features for growing professionals.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "100+ templates",
+      "ATS optimization",
+      "Export to PDF",
+      "Advanced analytics",
+      "Priority support",
+      "5 user accounts"
+    ],
+    "icon": "https://i.ibb.co/bRK4bGdp/operation.png"
+  },
+  {
+    "id": 3,
+    "name": "Business",
+    "description": "Powerful features designed for teams and businesses.",
+    "price": 49,
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Unlimited templates",
+      "Team collaboration",
+      "Advanced analytics",
+      "Custom branding",
+      "API access",
+      "Priority support",
+      "20 user accounts"
+    ],
+    "icon": "https://i.ibb.co/PGn8XPQ8/portfolio.png"
+  },
+  {
+    "id": 4,
+    "name": "Enterprise",
+    "description": "A complete solution for large organizations with advanced needs.",
+    "price": 199,
+    "period": "monthly",
+    "tag": "Premium",
+    "tagType": "premium",
+    "features": [
+      "Unlimited everything",
+      "Unlimited team members",
+      "Dedicated account manager",
+      "Advanced security",
+      "Custom integrations",
+      "24/7 premium support",
+      "SLA guarantee"
+    ],
+    "icon": "https://i.ibb.co/8yJcggN/shopping-cart.png"
+  },
+  {
+    "id": 5,
+    "name": "Lifetime Access",
+    "description": "Pay once and enjoy lifetime access to essential premium features.",
+    "price": 299,
+    "period": "one-time",
+    "tag": "Limited Offer",
+    "tagType": "offer",
+    "features": [
+      "Lifetime platform access",
+      "All premium templates",
+      "Unlimited PDF exports",
+      "Free future updates",
+      "Priority email support"
+    ],
+    "icon": "https://i.ibb.co/8gqxLMTT/social-media.png"
+  },
+  {
+    "id": 6,
+    "name": "Creator",
+    "description": "Perfect for freelancers, creators, and independent professionals.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "For Creators",
+    "tagType": "creator",
+    "features": [
+      "75+ creative templates",
+      "Portfolio builder",
+      "Custom domain",
+      "Social media integration",
+      "Performance tracking"
+    ],
+    "icon": "https://i.ibb.co/Zpjx63Tj/writing-2327400-1.png"
+  },
+  {
+    "id": 7,
+    "name": "Annual Pro",
+    "description": "Get premium features at a discounted price with annual billing.",
+    "price": 149,
+    "period": "yearly",
+    "tag": "Save 35%",
+    "tagType": "discount",
+    "features": [
+      "All Professional features",
+      "Unlimited projects",
+      "Advanced customization",
+      "Premium integrations",
+      "Priority customer support",
+      "Annual billing discount"
+    ],
+    "icon": "calendar-check"
+  },
+  {
+    "id": 8,
+    "name": "Basic",
+    "description": "A simple and affordable option for individuals with basic needs.",
+    "price": 0,
+    "period": "monthly",
+    "tag": "Free",
+    "tagType": "free",
+    "features": [
+      "10 basic templates",
+      "Basic customization",
+      "Limited PDF exports",
+      "Community support",
+      "1 user account"
+    ],
+    "icon": "package"
+  }
+]

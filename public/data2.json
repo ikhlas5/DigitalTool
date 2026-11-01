@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Create professional content, blog posts, emails, and marketing copy using powerful AI writing tools.",
+    "icon": "pen-tool"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "description": "Access thousands of premium design templates for social media, presentations, branding, and creative projects.",
+    "icon": "palette"
+  },
+  {
+    "id": 3,
+    "name": "SEO Booster",
+    "description": "Improve your website ranking with advanced keyword research, SEO analysis, and content optimization tools.",
+    "icon": "trending-up"
+  }
+]

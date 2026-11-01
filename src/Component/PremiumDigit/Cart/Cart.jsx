@@ -15,7 +15,7 @@ const Cart = ({ visitedCards, handleRemoveItem }) => {
       <div className="space-y-4">
         {visitedCards.length > 0 ? (
                     visitedCards.map((item, index) => (
-              console.log(item.icon),
+              // console.log(item.icon),
             <div
               key={index}
               className="flex items-center justify-between gap-4 p-5 bg-gray-50 rounded-2xl"
@@ -65,7 +65,7 @@ const Cart = ({ visitedCards, handleRemoveItem }) => {
         
         disabled={visitedCards.length === 0}
         className="w-full mt-6 py-4 rounded-full text-white font-semibold
-        bg-gradient-to-r from-indigo-600 to-purple-600
+        bg-linear-to-r from-indigo-600 to-purple-600
         hover:from-indigo-700 hover:to-purple-700
         transition disabled:opacity-50"
       >

@@ -4,17 +4,11 @@ import { use, useState } from "react";
 import AllProducts from "./AllProducts/AllProducts";
 import Cart from "./Cart/Cart";
 
-const PremiumDigit = ({ digitalCardPromise }) => {
+const PremiumDigit = ({ digitalCardPromise, visitedCards, handleVisitedCard, setVisitedCards }) => {
     const premiumCards = use(digitalCardPromise);
-     const [visitedCards, setVisitedCards] = useState([]);
+     
     // console.log(premiumCards);
     const [selectedType, setSelectedType] = useState("available");
-
-    const handleVisitedCard = (card) => {
-        //  console.log(card);
-        const newVisitedCards = [...visitedCards, card];
-        setVisitedCards(newVisitedCards);
-    }
 
     const handleRemoveItem = (item) => {
         console.log(item);

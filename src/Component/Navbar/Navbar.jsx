@@ -1,8 +1,16 @@
 // import React from 'react';
 
+import { useState } from "react";
 import { MdOutlineShoppingCart } from "react-icons/md";
+import Cart from "../PremiumDigit/Cart/Cart";
 
-const Navbar = () => {
+const Navbar = ({ visitedCards }) => {
+    console.log(visitedCards);
+    const [isCartOpen, setIsCartOpen] = useState(false);
+    const handleCartClick = () => {
+        // console.log("Cart clicked");
+        setIsCartOpen(prev => !prev);
+    }
     return (
         <div>
             <div className="navbar bg-base-100 shadow-sm w-full">
@@ -21,7 +29,7 @@ const Navbar = () => {
                             <li><a>FAQ</a></li>
                         </ul>
                     </div>
-                    <a className="text-2xl font-bold bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">DigiTool</a>
+                    <a className="text-2xl font-bold bg-linear-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">DigiTool</a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 font-semibold color-[#101727]">
@@ -33,9 +41,17 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end ">
-                    <MdOutlineShoppingCart />
+                    <div className="relative cursor-pointer space-x-5" onClick={handleCartClick}>
+                        <MdOutlineShoppingCart /> <span className="badge badge-xs badge-primary absolute -top-2 right-0">{visitedCards.length}</span>
+                  
+                    </div>
+                    {isCartOpen && (
+                        <div className="absolute right-0 top-10 z-50 w-96">
+                            <Cart visitedCards={visitedCards} />
+                        </div>
+                    )}
                     <button className="btn btn-outline btn-primary  m-2">Login</button>
-                    <button className="btn hidden md:block bg-gradient-to-r from-blue-500 to-purple-600 text-white">Get Started</button>
+                    <button className="btn hidden md:block bg-linear-to-r from-blue-500 to-purple-600 text-white">Get Started</button>
                 </div>
             </div>
         </div>
